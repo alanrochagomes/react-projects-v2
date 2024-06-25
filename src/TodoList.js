@@ -92,7 +92,11 @@ class TodoList extends Component {
     return (
       <div className="App-header">
         {/* Elemento de áudio para o som */}
-        <audio ref={this.audioRef} src={deleteSound} style={{ display: "none" }} />
+        <audio
+          ref={this.audioRef}
+          src={deleteSound}
+          style={{ display: "none" }}
+        />
 
         {/* Renderização condicional para editar o título */}
         <div style={{ display: "flex", alignItems: "center" }}>
